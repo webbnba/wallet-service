@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: r2dbc:tc:postgresql:///fake_db?TC_IMAGE_TAG=9.6.8
+
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.test.yaml

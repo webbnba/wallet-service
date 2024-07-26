@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - include:
+      file: 0.0.1/changelog-create-wallet-schema.sql
+      relativeToChangeLogFile: true
+  - include:
+      file: 0.0.1/changelog-create-wallet-table.sql
+      relativeToChangeLogFile: true
+  - include:
+      file: 0.0.1/changelog-insert-data-wallet.sql
+      relativeToChangeLogFile: true
